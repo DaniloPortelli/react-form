@@ -9,7 +9,7 @@ import strumentiMusicali from '../data/prodotti'
 
 function App() {
 
-  //Destrutturizzazione di Usestate: "strumenti"= 
+ 
   const [strumenti, setStrumenti] = useState(strumentiMusicali)
   const [nuovoStrumento, setNuovoStrumento] = useState("")
 
